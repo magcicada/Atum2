@@ -14,7 +14,7 @@ repositories {
     url "http://dvs1.progwml6.com/files/maven"
   }
   maven {
-    url "http://tehnut.info/maven"
+    url "https://www.cursemaven.com"
   }
   maven { 
     url "http://maven.blamejared.com" 
@@ -43,7 +43,7 @@ minecraft {
 dependencies {
     deobfProvided "mezz.jei:jei_${minecraft_version}:${jei_version}:api"
     runtime "mezz.jei:jei_${minecraft_version}:${jei_version}"
-    deobfProvided "mcp.mobius.waila:Hwyla:${hwyla_version}_${minecraft_version}"
+    deobfProvided "curse.maven:hwyla-253449:2568751"
     deobfProvided "CraftTweaker2:CraftTweaker2-API:${ct_version}"
 }
 
